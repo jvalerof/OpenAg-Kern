@@ -1,0 +1,1 @@
+The folder “water_districts” contains three groups of water districts: “kern_water_district_adjust”, “friant_kern_county_contractors”, and “other_districts”. The most relevant attributes for each shapefile are: “AGENCYNAME” (Name of the water district) and “District” (a code assigned by the UC Merced team).
