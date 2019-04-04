@@ -7,4 +7,3 @@ OpenAg-Kern is an application for Kern County in California developed for as par
 
 The application models agricultural production for a collection of 20 crop groups following the CA Department of Water Resources for 18 irrigation areas in the southern San Joaquin Valley mostly located in Kern County. The model calibrates to a  2011-2013 base dataset for land and water use using various land use sources, and 2015 US dollars data on crop prices and yields from the corresponding County Agricultural Commissioner Reports, and UC Davis agricultural cost and return studies.
 
-# just a test line at the end
