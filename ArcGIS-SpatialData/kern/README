@@ -1,0 +1,3 @@
+#README
+This folder contains the excel file “codes” and two folders “land_use” and “water_districts”.
+The excel file “codes” has the codes used to identify crops and water districts. On the other hand, the folder “land_use” has crop polygons from 2011 to 2015 and the folder “water_districts” has the water districts in the Kern region.
