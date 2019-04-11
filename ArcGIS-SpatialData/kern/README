@@ -1,8 +1,0 @@
-#README
-This folder contains the excel file “codes” and two folders “land_use” and “water_districts”.
-
-The “land_use” folder has crop polygons from 2011 to 2015 and the folder “water_districts” 
-has the water districts in the Kern region.
-
-The excel file “codes” has the GAMS codes for the crops, and the district codes for the water districts. 
-The “Disctric” code was assigned by the UC Merced team.
