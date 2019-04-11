@@ -1,17 +1,15 @@
 # SPATIAL INFORMATION FOR KERN REGION
 
+The spatial information of Kern region is in Dropbox in two folders: “land_use” and “water_districts”
 
-Kern folder contains information of “land_use” and “water_districts”. The “land_use” folder has crop polygons from 2011 to 2015. On the other hand, the “water_districts” folder has the water districts in the Kern region.
 
-For more details, read the files “README.md” inside of each folder.
+# WATER DISTRICTS
 
-# WATER DISTRICTS IN KERN REGION
-
-The folder “water_districts” contains three groups of water districts: “kern_water_district_adjust”, “friant_kern_county_contractors”, and “other_districts”. 
+The folder “water_districts” contains three groups of water districts: “kern_water_district_adjust”, “friant_kern_county_contractors”, and “other_districts”.
 
 The most relevant attributes for each shapefile are: “AGENCYNAME” (Name of the water district) and “District” (a code assigned by the UC Merced team).
 
-Finally, the codes for each water district are:
+The code for each district is shown below.
 
 
 | District | CVPM |                   AGENCYNAME                    |
@@ -46,15 +44,15 @@ Finally, the codes for each water district are:
 | ot1      | 15B  | Dudley Ridge Water District                     |
 
 
-# LAND USE IN KERN REGION
+# LAND USE
 
 The land use for kern region has been divided in two folders: “2011_2015” and “2014”.
 
--	The “2011_2015” folder contains the crop polygons for four years: 2011, 2012, 2013 and 2015. The most relevant attributes are: “COMM” (commodity names), “ACRES” (area in acres reported by the Kern County Department of Agriculture and Measurement Standards) and “acres_jv” (area calculated by the UC Merced team).
+- The “2011_2015” folder contains the crop polygons for four years: 2011, 2012, 2013 and 2015. The most relevant attributes are: “COMM” (commodity names), “ACRES” (area in acres reported by the Kern County Department of Agriculture and Measurement Standards) and “acres_jv” (area calculated by the UC Merced team).
 
--	The folder “2014” only has the crop polygons for the year 2014. The most relevant attributes are: “Crop2014” (commodity names), “Acres” (area in acres reported by Land IQ to DWR) and “acres_jv” (area calculated by the UC Merced team).
+- The folder “2014” only has the crop polygons for the year 2014. The most relevant attributes are: “Crop2014” (commodity names), “Acres” (area in acres reported by Land IQ to DWR) and “acres_jv” (area calculated by the UC Merced team).
 
-Finally, the GAMS codes for each crop are:
+The GAMS code for each crop is:
 
 |                   Crop                   | GAMS code |
 |------------------------------------------|-----------|
