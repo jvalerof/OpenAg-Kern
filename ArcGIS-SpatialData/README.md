@@ -1,6 +1,6 @@
 # SPATIAL INFORMATION FOR KERN REGION
 
-The spatial information of Kern region is in Dropbox in two folders: “land_use” and “water_districts”
+The spatial information of Kern region is in Dropbox in two folders: “water_districts” and “land_use”.
 
 
 # WATER DISTRICTS
