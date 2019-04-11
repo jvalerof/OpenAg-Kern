@@ -1,3 +1,0 @@
-The folder “2011_2015” contains the crop polygons for four years: 2011, 2012, 2013 and 2015. The most relevant attributes are: “COMM” (commodity names), “ACRES” (area in acres reported by the Kern County Department of Agriculture and Measurement Standards) and “acres_jv” (area calculated by the UC Merced team).
-
-The folder “2014” has the crop polygons for the year 2014. The most relevant attributes are: “Crop2014” (commodity names), “Acres” (area in acres reported by Land IQ to DWR) and “acres_jv” (area calculated by the UC Merced team).
