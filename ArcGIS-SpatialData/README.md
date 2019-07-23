@@ -61,13 +61,10 @@ In the previous information the codes OA and WA represent Overlap and White area
 
 # LAND USE
 
-The land use for kern region has been divided in two folders: “2011_2015” and “2014”.
+The land use for Kern was obtained from [Kern County Spatial Data](http://www.kernag.com/gis/gis-data.asp)
 
-- The “2011_2015” folder contains the crop polygons for four years: 2011, 2012, 2013 and 2015. The most relevant attributes are: “COMM” (commodity names), “ACRES” (area in acres reported by the Kern County Department of Agriculture and Measurement Standards) and “acres_jv” (area calculated by the UC Merced team).
+For each crop the UC Merced team asigned the "GAMS CODE" listed next:
 
-- The folder “2014” only has the crop polygons for the year 2014. The most relevant attributes are: “Crop2014” (commodity names), “Acres” (area in acres reported by Land IQ to DWR) and “acres_jv” (area calculated by the UC Merced team).
-
-The GAMS code for each crop is:
 
 |                   CROP                   | GAMS CODE |
 |------------------------------------------|-----------|
