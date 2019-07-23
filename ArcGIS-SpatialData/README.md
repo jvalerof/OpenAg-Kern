@@ -7,44 +7,57 @@ The spatial information of Kern region is in Dropbox in two folders:
 
 # WATER DISTRICTS
 
-The folder “water_districts” contains three groups of water districts: “kern_water_district_adjust”, “friant_kern_county_contractors”, and “other_districts”.
+Kern water districts are listed next:
 
-The most relevant attributes for each shapefile are: “AGENCYNAME” (Name of the water district) and “District” (a code assigned by the UC Merced team).
+| DISTRICT |           WATER DISTRICT NAME            |
+|----------|------------------------------------------|
+| D01      | BELRIDGE WSD                             |
+| D02      | KERN DELTA WD                            |
+| D03      | WHEELER RIDGE-MARICOPA WSD               |
+| D04      | WEST KERN WD                             |
+| D05      | BERRENDA MESA WD                         |
+| D06      | SEMITROPIC WSD                           |
+| D07      | ROSEDALE-RIO BRAVO WSD                   |
+| D08      | BUENA VISTA WSD                          |
+| D09      | CAWELO WD                                |
+| D10      | HENRY MILLER WD                          |
+| D11      | LOST HILLS WD                            |
+| FK01     | DELANO EARLIMART ID                      |
+| FK02     | EXETER IRRIGATION DISTRICT               |
+| FK03     | KERN-TULARE WD                           |
+| FK04     | LINDMORE IRRIGATION DISTRICT             |
+| FK05     | LINDSAY - STRATHMORE IRRIGATION DISTRICT |
+| FK06     | LOWER TULE RIVER IRRIGATION DISTRICT     |
+| FK07     | PORTERVILLE IRRIGATION DISTRICT          |
+| FK08     | SAUCELITO IRRIGATION DISTRICT            |
+| FK09     | SHAFTER WASCO ID                         |
+| FK10     | SOUTHERN SAN JOAQUIN MUD                 |
+| FK11     | TEA POT DOME WATER DISTRICT              |
+| FK12     | TERRA BELLA IRRIGATION DISTRICT          |
+| FK13     | TULARE IRRIGATION DISTRICT               |
+| FK14     | VANDALIA IRRIGATION DISTRICT             |
+| FK15     | ARVIN-EDISON WSD                         |
+| OT01     | DUDLEY RIDGE WATER DISTRICT              |
+| OT02     | NORTH KERN WSD                           |
+| OT03     | OLCESE WATER DISTRICT                    |
+| AD01     | IMPROVEMENT DISTRICT NO. 4               |
+| AD02     | MCALLISTER RANCH ID                      |
+| AD03     | KERN WATER BANK                          |
+| AD04     | RAND COMMUNITIES COUNTY WD               |
+| AD05     | DEVILS DEN WD                            |
+| AD06     | TEJON-CASTAC WD                          |
+| AD07     | LEBEC COUNTY WD                          |
+| AD08     | INDIAN WELLS VALLEY WD                   |
+| AD09     | PIONEER NORTH                            |
+| AD10     | PIONEER SOUTH                            |
+| AD11     | PIONEER CENTRAL                          |
+| AD12     | ANTELOPE VALLEY-EAST KERN WA             |
+| AD13     | TEHACHAPI-CUMMINGS CO WD                 |
+| OA       | OVERLAP AREA                             |
+| WA       | WHITE AREA                               |
 
-The code for each district is shown below.
+In the previous information the codes OA and WA represent Overlap and White areas respectively.
 
-
-| District | CVPM |                   AGENCYNAME                    |
-|----------|------|-------------------------------------------------|
-| D01      | 19A  | Belridge Water Storage District                 |
-| D02      | 21A  | Kern Delta Water District                       |
-| D03      | 21C  | Wheeler Ridge - Maricopa Water Storage District |
-| D04      | 19A  | West Kern Water District                        |
-| D05      | 19A  | Berrenda Mesa Water District                    |
-| D06      | 19B  | Semitropic Water Service District               |
-| D07      | 21A  | Rosedale - Rio Bravo Water Storage District     |
-| D08      | 19B  | Buena Vista Water Storage District              |
-| D09      | 20   | Cawelo Water District                           |
-| D10      | 21A  | Henry Miller Water District                     |
-| D11      | 19A  | Lost Hills Water District                       |
-| fk01     | 18   | Delano - Earlimart Irrigation District          |
-| fk02     | 18   | Exeter Irrigation District                      |
-| fk03     | 20   | Kern - Tulare Water District                    |
-| fk04     | 18   | Lindmore Irrigation District                    |
-| fk05     | 18   | Lindsay - Strathmore Irrigation District        |
-| fk06     | 18   | Lower Tule River Irrigation District            |
-| fk07     | 18   | Porterville Irrigation District                 |
-| fk08     | 18   | Saucelito Irrigation District                   |
-| fk09     | 20   | Shafter - Wasco Irrigation District             |
-| fk10     | 20   | Southern San Joaquin Municipal Utility District |
-| fk11     | 18   | Tea Pot Dome Water District                     |
-| fk12     | 18   | Terra Bella Irrigation District                 |
-| fk13     | 18   | Tulare Irrigation District                      |
-| fk14     | 18   | Vandalia Irrigation District                    |
-| fk15     | 21B  | Arvin - Edison Water Storage District           |
-| ot1      | 15B  | Dudley Ridge Water District                     |
-| ot2      | 20   | North Kern Water Storage District               |
-| ot3      | 20   | Olcese Water District                           |
 
 # LAND USE
 
@@ -56,34 +69,34 @@ The land use for kern region has been divided in two folders: “2011_2015” an
 
 The GAMS code for each crop is:
 
-|                   Crop                   | GAMS code |
+|                   CROP                   | GAMS CODE |
 |------------------------------------------|-----------|
 | ALFALFA                                  | ALFAL     |
 | Alfalfa and Alfalfa Mixtures             | ALFAL     |
 | ALFALFA SEED                             | ALFAL     |
 | ALMOND                                   | ALPIS     |
 | Almonds                                  | ALPIS     |
-| APPLE                                    | ORCHD     |
-| Apples                                   | COTTN     |
-| APRICOT                                  | ORCHD     |
+| APPLE                                    | OTHDEC    |
+| Apples                                   | OTHDEC    |
+| APRICOT                                  | OTHDEC    |
 | ARRUGULA                                 | OTHTRK    |
 | ARTICHOKE                                | OTHTRK    |
 | ARUGULA                                  | OTHTRK    |
-| ASIAN PEAR                               | ORCHD     |
+| ASIAN PEAR                               | OTHDEC    |
 | ASPARAGUS                                | OTHTRK    |
 | AVOCADO                                  | SUBTRP    |
-| Avocados                                 | ALPIS     |
+| Avocados                                 | SUBTRP    |
 | BARLEY                                   | GRAIN     |
 | BARLEY FOR/FOD                           | GRAIN     |
 | BARLEY SEED                              | GRAIN     |
 | BEAN DRIED                               | DRYBN     |
-| BEAN SUCCULENT                           | DRYBN     |
-| Beans (Dry)                              | ORCHD     |
+| BEAN SUCCULENT                           | OTHTRK    |
+| Beans (Dry)                              | DRYBN     |
 | BEET                                     | OTHTRK    |
 | BEETS RED                                | OTHTRK    |
 | BLACKBERRY                               | OTHTRK    |
 | BLUEBERRY                                | OTHTRK    |
-| BOK CHOY LSE LF                          | N/A       |
+| BOK CHOY LSE LF                          | OTHTRK    |
 | BOYSENBERRY                              | OTHTRK    |
 | BROCCOLI                                 | OTHTRK    |
 | BROCCOLI SEED                            | OTHTRK    |
@@ -95,18 +108,18 @@ The GAMS code for each crop is:
 | CACTUS PEAR                              | OTHTRK    |
 | CANTALOUPE                               | CUCUR     |
 | CARROT                                   | OTHTRK    |
-| CARROT SEED                              | GRAIN     |
-| Carrots                                  | OTHFLD    |
-| CASHEW                                   | ORCHD     |
+| CARROT SEED                              | OTHTRK    |
+| Carrots                                  | OTHTRK    |
+| CASHEW                                   | OTHDEC    |
 | CAULIFLOWER                              | OTHTRK    |
 | CAULIFLOWR SEED                          | OTHTRK    |
 | CELERIAC                                 | ONGAR     |
 | CELERY                                   | OTHTRK    |
-| CELERY SEED                              | GRAIN     |
-| Cherries                                 | ORCHD     |
-| CHERRY                                   | ORCHD     |
-| CHESTNUT                                 | ORCHD     |
-| CHINESE GREEN                            | CUCUR     |
+| CELERY SEED                              | OTHTRK    |
+| Cherries                                 | OTHDEC    |
+| CHERRY                                   | OTHDEC    |
+| CHESTNUT                                 | OTHTRK    |
+| CHINESE GREEN                            | OTHTRK    |
 | CHIVE                                    | OTHTRK    |
 | CILANTRO                                 | OTHTRK    |
 | CITRUS                                   | SUBTRP    |
@@ -123,16 +136,16 @@ The GAMS code for each crop is:
 | DAIKON                                   | OTHTRK    |
 | DANDELION GREEN                          | N/A       |
 | DILL                                     | OTHTRK    |
-| EGGPLANT                                 | OTHTRK    |
-| FAVA BEAN                                | GRAIN     |
+| EGGPLANT                                 | CUCUR     |
+| FAVA BEAN                                | DRYBN     |
 | FENNEL                                   | OTHTRK    |
 | FIG                                      | SUBTRP    |
 | Flowers Nursery and Christmas Tree Farms | N/A       |
 | FORAGE HAY/SLGE                          | ALFAL     |
 | FOREST TMBRLND                           | N/A       |
-| FRUIT BERRY                              | ORCHD     |
-| GAI CHOY LSE LF                          | N/A       |
-| GAI LON TGHT HD                          | N/A       |
+| FRUIT BERRY                              | OTHTRK    |
+| GAI CHOY LSE LF                          | OTHTRK    |
+| GAI LON TGHT HD                          | OTHTRK    |
 | GARBANZO BEAN                            | DRYBN     |
 | GARLIC                                   | ONGAR     |
 | GOURD                                    | CUCUR     |
@@ -141,7 +154,7 @@ The GAMS code for each crop is:
 | GRAPE WINE                               | VINE      |
 | GRAPEFRUIT                               | SUBTRP    |
 | Grapes                                   | VINE      |
-| HERB SPICE                               | N/A       |
+| HERB SPICE                               | OTHTRK    |
 | HONEYDEW MELON                           | CUCUR     |
 | Idle                                     | N/A       |
 | JUJUBE                                   | OTHDEC    |
@@ -149,7 +162,7 @@ The GAMS code for each crop is:
 | KIWI                                     | SUBTRP    |
 | Kiwis                                    | SUBTRP    |
 | KOHLRABI                                 | OTHTRK    |
-| KUMQUAT                                  | N/A       |
+| KUMQUAT                                  | SUBTRP    |
 | LEEK                                     | OTHTRK    |
 | LEMON                                    | SUBTRP    |
 | LETTUCE HEAD                             | OTHTRK    |
@@ -162,23 +175,23 @@ The GAMS code for each crop is:
 | Managed Wetland                          | N/A       |
 | MELON                                    | CUCUR     |
 | Melons Squash and Cucumbers              | CUCUR     |
-| Miscellaneous Deciduous                  | N/A       |
-| Miscellaneous Grain and Hay              | N/A       |
-| Miscellaneous Grasses                    | N/A       |
+| Miscellaneous Deciduous                  | OTHDEC    |
+| Miscellaneous Grain and Hay              | GRAIN     |
+| Miscellaneous Grasses                    | PASTR     |
 | Miscellaneous Truck Crops                | OTHTRK    |
 | Mixed Pasture                            | PASTR     |
 | MUSK MELON                               | CUCUR     |
 | MUSTARD                                  | OTHTRK    |
 | MUSTARD GREENS                           | OTHTRK    |
 | NAPA CBG TGHT H                          | OTHTRK    |
-| NECTARINE                                | ORCHD     |
+| NECTARINE                                | OTHDEC    |
 | N-GRNHS PLANT                            | N/A       |
 | N-OUTDR PLANTS                           | N/A       |
 | OAT                                      | GRAIN     |
-| OAT FOR/FOD                              | N/A       |
+| OAT FOR/FOD                              | GRAIN     |
 | OF-BULB                                  | N/A       |
-| OILSEED                                  | N/A       |
-| OKRA                                     | N/A       |
+| OILSEED                                  | OTHFLD    |
+| OKRA                                     | OTHTRK    |
 | OLIVE                                    | SUBTRP    |
 | Olives                                   | SUBTRP    |
 | ONION DRY ETC                            | ONGAR     |
@@ -187,8 +200,8 @@ The GAMS code for each crop is:
 | ONION SEED                               | ONGAR     |
 | Onions and Garlic                        | ONGAR     |
 | OP-CHRSTMS TREE                          | N/A       |
-| OP-DEC. SHRUB                            | ORCHD     |
-| OP-DEC. TREE                             | ORCHD     |
+| OP-DEC. SHRUB                            | OTHDEC    |
+| OP-DEC. TREE                             | OTHDEC    |
 | OP-FLOWER SEED                           | N/A       |
 | OP-FLWRNG PLANT                          | N/A       |
 | OP-PALM                                  | N/A       |
@@ -196,60 +209,60 @@ The GAMS code for each crop is:
 | OP-VINE                                  | VINE      |
 | ORANGE                                   | SUBTRP    |
 | OT-CONIFER                               | N/A       |
-| OT-DEC. TREE                             | N/A       |
+| OT-DEC. TREE                             | OTHDEC    |
 | PAPAYA                                   | SUBTRP    |
 | PARSLEY                                  | OTHTRK    |
-| PARSLEY SEED                             | GRAIN     |
+| PARSLEY SEED                             | OTHTRK    |
 | PARSNIP                                  | OTHTRK    |
 | PASTURELAND                              | PASTR     |
-| PEACH                                    | ORCHD     |
-| Peaches/Nectarines                       | ORCHD     |
-| PEAR                                     | ORCHD     |
-| Pears                                    | ORCHD     |
+| PEACH                                    | OTHDEC    |
+| Peaches/Nectarines                       | OTHDEC    |
+| PEAR                                     | OTHDEC    |
+| Pears                                    | OTHDEC    |
 | PEAS                                     | DRYBN     |
-| PEAS SEED                                | GRAIN     |
-| PECAN                                    | ORCHD     |
+| PEAS SEED                                | OTHTRK    |
+| PECAN                                    | OTHDEC    |
 | PEPPER FRUITNG                           | OTHTRK    |
 | PEPPER SPICE                             | OTHTRK    |
 | Peppers                                  | OTHTRK    |
-| PERSIMMON                                | ORCHD     |
+| PERSIMMON                                | OTHDEC    |
 | PISTACHIO                                | ALPIS     |
 | Pistachios                               | ALPIS     |
-| PLUM                                     | ORCHD     |
-| Plums Prunes and Apricots                | ORCHD     |
-| POMEGRANATE                              | ORCHD     |
-| Pomegranates                             | ORCHD     |
-| POMELO                                   | ORCHD     |
+| PLUM                                     | OTHDEC    |
+| Plums Prunes and Apricots                | OTHDEC    |
+| POMEGRANATE                              | OTHDEC    |
+| Pomegranates                             | OTHDEC    |
+| POMELO                                   | OTHDEC    |
 | POTATO                                   | POTATO    |
 | Potatoes and Sweet Potatoes              | POTATO    |
-| PRUNE                                    | ORCHD     |
-| PUMPKIN                                  | OTHTRK    |
-| QUINCE                                   | ORCHD     |
+| PRUNE                                    | OTHDEC    |
+| PUMPKIN                                  | CUCUR     |
+| QUINCE                                   | OTHDEC    |
 | RADISH                                   | OTHTRK    |
-| RADISH SEED                              | GRAIN     |
+| RADISH SEED                              | OTHTRK    |
 | RANGELAND                                | PASTR     |
-| RAPE                                     | OTHFLD    |
+| RAPE                                     | N/A       |
 | RUTABAGA                                 | OTHTRK    |
-| RYE                                      | GRAIN     |
-| RYEGRAS FOR/FOD                          | OTHFLD    |
+| RYE                                      | PASTR     |
+| RYEGRAS FOR/FOD                          | PASTR     |
 | SAFFLOWER                                | SAFLR     |
 | SHALLOT                                  | ONGAR     |
-| SORGHUM FOR/FOD                          | GRAIN     |
-| SORGHUM MILO                             | GRAIN     |
-| SORGHUM SEED                             | GRAIN     |
+| SORGHUM FOR/FOD                          | OTHFLD    |
+| SORGHUM MILO                             | OTHFLD    |
+| SORGHUM SEED                             | OTHFLD    |
 | SPINACH                                  | OTHTRK    |
 | SQUASH                                   | CUCUR     |
 | SQUASH SUMMER                            | CUCUR     |
 | SQUASH WINTER                            | CUCUR     |
-| STONE FRUIT                              | N/A       |
-| Strawberries                             | OTHFLD    |
-| STRAWBERRY                               | OTHFLD    |
+| STONE FRUIT                              | OTHDEC    |
+| Strawberries                             | OTHTRK    |
+| STRAWBERRY                               | OTHTRK    |
 | SUDANGRASS                               | OTHFLD    |
 | SUGARBEET                                | SBEET     |
-| SUGARCANE                                | N/A       |
-| SUNFLOWER                                | N/A       |
-| SUNFLOWER SEED                           | GRAIN     |
-| SWEET BASIL                              | N/A       |
+| SUGARCANE                                | OTHFLD    |
+| SUNFLOWER                                | OTHFLD    |
+| SUNFLOWER SEED                           | OTHFLD    |
+| SWEET BASIL                              | OTHTRK    |
 | SWEET POTATO                             | POTATO    |
 | SWISS CHARD                              | OTHTRK    |
 | TANGELO                                  | SUBTRP    |
@@ -261,19 +274,19 @@ The GAMS code for each crop is:
 | TOMATO SEED                              | FRTOM     |
 | Tomatoes                                 | FRTOM     |
 | TRITICALE                                | GRAIN     |
-| TURF/SOD                                 | N/A       |
+| TURF/SOD                                 | PASTR     |
 | TURNIP                                   | OTHTRK    |
 | UNCUL NON-AG                             | N/A       |
 | UNCULTIVATED AG                          | N/A       |
 | Urban                                    | N/A       |
-| VEGETABLE                                | N/A       |
+| VEGETABLE                                | OTHTRK    |
 | VETCH                                    | OTHTRK    |
-| WALNUT                                   | ORCHD     |
-| Walnuts                                  | ORCHD     |
-| WATERMELON                               | OTHTRK    |
+| WALNUT                                   | OTHDEC    |
+| Walnuts                                  | OTHDEC    |
+| WATERMELON                               | CUCUR     |
 | WHEAT                                    | GRAIN     |
 | WHEAT FOR/FOD                            | GRAIN     |
 | WHEAT SEED                               | GRAIN     |
 | YAM                                      | OTHTRK    |
-| Young Perennials                         | N/A       |
+| Young Perennials                         | OTHDEC    |
 | ZUCCHINI                                 | CUCUR     |
