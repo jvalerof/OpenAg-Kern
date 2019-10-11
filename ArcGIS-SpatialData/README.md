@@ -9,53 +9,54 @@ The spatial information of Kern region is in Dropbox in two folders:
 
 Kern water districts are listed next:
 
-| DISTRICT |           WATER DISTRICT NAME            |
-|----------|------------------------------------------|
-| D01      | BELRIDGE WSD                             |
-| D02      | KERN DELTA WD                            |
-| D03      | WHEELER RIDGE-MARICOPA WSD               |
-| D04      | WEST KERN WD                             |
-| D05      | BERRENDA MESA WD                         |
-| D06      | SEMITROPIC WSD                           |
-| D07      | ROSEDALE-RIO BRAVO WSD                   |
-| D08      | BUENA VISTA WSD                          |
-| D09      | CAWELO WD                                |
-| D10      | HENRY MILLER WD                          |
-| D11      | LOST HILLS WD                            |
-| FK01     | DELANO EARLIMART ID                      |
-| FK02     | EXETER IRRIGATION DISTRICT               |
-| FK03     | KERN-TULARE WD                           |
-| FK04     | LINDMORE IRRIGATION DISTRICT             |
-| FK05     | LINDSAY - STRATHMORE IRRIGATION DISTRICT |
-| FK06     | LOWER TULE RIVER IRRIGATION DISTRICT     |
-| FK07     | PORTERVILLE IRRIGATION DISTRICT          |
-| FK08     | SAUCELITO IRRIGATION DISTRICT            |
-| FK09     | SHAFTER WASCO ID                         |
-| FK10     | SOUTHERN SAN JOAQUIN MUD                 |
-| FK11     | TEA POT DOME WATER DISTRICT              |
-| FK12     | TERRA BELLA IRRIGATION DISTRICT          |
-| FK13     | TULARE IRRIGATION DISTRICT               |
-| FK14     | VANDALIA IRRIGATION DISTRICT             |
-| FK15     | ARVIN-EDISON WSD                         |
-| OT01     | DUDLEY RIDGE WATER DISTRICT              |
-| OT02     | NORTH KERN WSD                           |
-| OT03     | OLCESE WATER DISTRICT                    |
-| AD01     | IMPROVEMENT DISTRICT NO. 4               |
-| AD02     | MCALLISTER RANCH ID                      |
-| AD03     | KERN WATER BANK                          |
-| AD04     | RAND COMMUNITIES COUNTY WD               |
-| AD05     | DEVILS DEN WD                            |
-| AD06     | TEJON-CASTAC WD                          |
-| AD07     | LEBEC COUNTY WD                          |
-| AD08     | INDIAN WELLS VALLEY WD                   |
-| AD09     | PIONEER NORTH                            |
-| AD10     | PIONEER SOUTH                            |
-| AD11     | PIONEER CENTRAL                          |
-| AD12     | ANTELOPE VALLEY-EAST KERN WA             |
-| AD13     | TEHACHAPI-CUMMINGS CO WD                 |
-| OA       | OVERLAP AREA                             |
-| WA       | WHITE AREA                               |
-
+| Code  |           District           |
+|-------|------------------------------|
+| KER01 | SEMITROPIC WSD               |
+| KER02 | WEST KERN WD                 |
+| KER03 | WHEELER RIDGE-MARICOPA WSD   |
+| KER04 | KERN DELTA WD                |
+| KER05 | ARVIN-EDISON WSD             |
+| KER06 | BELRIDGE WSD                 |
+| KER07 | LOST HILLS WD                |
+| KER08 | NORTH KERN WSD               |
+| KER09 | IMPROVEMENT DISTRICT NO. 4   |
+| KER10 | SOUTHERN SAN JOAQUIN MUD     |
+| KER11 | BERRENDA MESA WD             |
+| KER12 | BUENA VISTA WSD              |
+| KER13 | CAWELO WD                    |
+| KER14 | ROSEDALE-RIO BRAVO WSD       |
+| KER15 | SHAFTER WASCO ID             |
+| KER16 | HENRY MILLER WD              |
+| KER17 | KERN WATER BANK              |
+| KER18 | DEVILS DEN WD                |
+| KER19 | McALLISTER RANCH ID          |
+| KER20 | PIONEER NORTH                |
+| KER21 | PIONEER SOUTH                |
+| KER22 | OLCESE WATER DISTRICT        |
+| KER23 | PIONEER CENTRAL              |
+| KeT01 | Delano - Earlimart ID        |
+| KeT02 | Kern - Tulare Water District |
+| KIN01 | Dudley Ridge Water District  |
+| TUL01 | Lower Tule River ID          |
+| TUL02 | Tulare Irrigation District   |
+| TUL03 | Lindmore ID                  |
+| TUL04 | Saucelito ID                 |
+| TUL05 | Portervile ID                |
+| TUL06 | Lindsay-Strathmore ID        |
+| TUL07 | Exeter ID                    |
+| TUL08 | Terra Bella ID               |
+| TUL09 | Tea Pot Dome WD              |
+| TUL10 | Vandalia ID                  |
+| WHA01 | White Area 01                |
+| WHA02 | White Area 02                |
+| WHA03 | White Area 03                |
+| WHA04 | White Area 04                |
+| WHA05 | White Area 05                |
+| WHA06 | White Area 06                |
+| WHA07 | White Area 07                |
+| WHA08 | White Area 08                |
+| WHA09 | White Area 09                |
+| WHA10 | White Area 10                |
 In the previous information the codes OA and WA represent Overlap and White areas respectively.
 
 
