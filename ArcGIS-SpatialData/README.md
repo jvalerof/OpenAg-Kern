@@ -57,6 +57,7 @@ Kern water districts are listed next:
 | WHA08 | White Area 08                |
 | WHA09 | White Area 09                |
 | WHA10 | White Area 10                |
+
 In the previous information the codes OA and WA represent Overlap and White areas respectively.
 
 
